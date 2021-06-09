@@ -1,0 +1,75 @@
+  <div class="col-md-4 col-lg-3 col-sm-4">
+ <div class="card mt-5" style="width: 18rem;">
+  <img src="Assets Css/Mask Group.png" class="card-img-top" alt="...">
+  <div class="card-body border-top ">
+    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+    <p class="card-text mb-2"  style="color: #3682F4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">3.450.000</p>
+    <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span><br/> 
+  <button class="shop btn btn-primary mt-3" type="submit"> <span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px;"></span>
+    Add to cart</button>
+  <button type="button" class="btn btn-outline-primary mt-3"> <span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px;"></span></button>
+  </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-lg-3 col-sm-4">
+    <div class="card mt-5" style="width: 18rem;">
+     <img src="Assets Css/Mask Group.png" class="card-img-top" alt="...">
+     <div class="card-body border-top ">
+       <h5 class="card-title">Omron Arm Blood Pressure</h5>
+       <p class="card-text mb-2"  style="color: #3682F4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">3.450.000</p>
+       <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+     <span class="fa fa-star"></span><br/> 
+     <button class="shop btn btn-primary mt-3" type="submit"> <span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px;"></span>
+       Add to cart</button>
+     <button type="button" class="btn btn-outline-primary mt-3"> <span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px;"></span></button>
+     </div>
+       </div>
+     </div>
+
+     <div class="col-md-4 col-lg-3 col-sm-4">
+      <div class="card mt-5" style="width: 18rem;">
+       <img src="Assets Css/Mask Group.png" class="card-img-top" alt="...">
+       <div class="card-body border-top ">
+         <h5 class="card-title">Omron Arm Blood Pressure</h5>
+         <p class="card-text mb-2"  style="color: #3682F4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">3.450.000</p>
+         <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span><br/> 
+       <button class="shop btn btn-primary mt-3" type="submit"> <span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px;"></span>
+         Add to cart</button>
+       <button type="button" class="btn btn-outline-primary mt-3"> <span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px;"></span></button>
+       </div>
+         </div>
+       </div>
+
+          <div class="col-md-4 col-lg-3 col-sm-4">
+ <div class="card mt-5" style="width: 18rem;">
+  <img src="Assets Css/Mask Group.png" class="card-img-top" alt="...">
+  <div class="card-body border-top ">
+    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+    <p class="card-text mb-2"  style="color: #3682F4; font-size: 20px; font-family: 'Montserrat', sans-serif; font-weight: 700">3.450.000</p>
+    <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span><br/> 
+  <button class="shop btn btn-primary mt-3" type="submit"> <span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px;"></span>
+    Add to cart</button>
+  <button type="button" class="btn btn-outline-primary mt-3"> <span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px;"></span></button>
+  </div>
+    </div>
+
+
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
