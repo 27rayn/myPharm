@@ -73,3 +73,70 @@
 
 
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+
+
+
+
+
+
+
+
+
+     <section class="form my-4 mx-5 justify-content-center">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-lg-6">
+            <img src="Assets/Login.png" class="img-fluid my-3" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="text-end">
+            <img src="Assets Css/Logo Navbar.png" width="120" height="auto" alt="" />
+          </div>
+          <h2 style="font-size: 36px; font-family: 'Mulish', sans-serif; font-weight: 700" class="text-start pt-5">Login</h2>
+          <h2 style="color: #c2c2c2; font-size: 20px; font-family: 'Mulish', sans-serif; font-weight: 400" class="text-start">Buy Medicine Made Easy</h2>
+          <!-- Login -->
+          <form action="#">
+            <div class="mb-4">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control rounded-pill" name="email" />
+            </div>
+            <div class="mb-4">
+              <label for="password" class="form-label">Email</label>
+              <input type="password" class="form-control rounded-pill" name="Password" />
+            </div>
+            <div class="mb-4">
+              <input type="checkbox" name="connected" class="form-check-input" />
+              <label for="connected" class="form-check-label">Remember Me</label>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary rounded-pill">Login</button>
+            </div>
+            <div class="my-4">
+              <span>Not registered yet? <a st href="#">Create an Account</a></span
+              ><br />
+              <span>Forgot your password?<a href="#">Retrieve Password</a></span>
+            </div>
+          </form>
+
+          <!-- Login with google etc -->
+          <div class="container w-100 my-5">
+            <div class="row text-center">
+              <div style="color: #c2c2c2; font-size: 16px; font-family: 'Mulish', sans-serif" class="col-12">Or Sign in With</div>
+            </div>
+            <div class="row text-center" style="margin: 24px">
+              <div class="col">
+                <button class="btn btn-outline-primary rounded-pill">
+                  <div class="row align-items-center">
+                    <div class="col-2">
+                      <span class="iconify" data-inline="false" data-icon="grommet-icons:google" style="font-size: 24px"></span>
+                    </div>
+                    <div class="col-10 text-center">Sign in with Google</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
