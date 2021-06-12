@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!-- CSS Saya -->
-    <link rel="stylesheet" href="style.css" />
-
-    <title>MyPharm</title>
-    <link rel="icon" type="image/png" href="Assets/Frame 32.png" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  </head>
-  <body>
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
@@ -57,7 +36,7 @@
           <form>
             <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
           </form>
-          <a class="btn btn-primary mx-2" type="submit" href="register.html">Sign Up</a>
+          <a class="btn btn-primary mx-2" type="submit">Sign Up</a>
           <a type="button" class="btn btn-outline-primary" href="login.html">Login</a>
           <a class="btn btn-labeled btn-primary mx-2" type="submit">
             <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
@@ -386,47 +365,3 @@
       </div>
     </section>
     <!-- Best Sales End -->
-
-    <!-- Footer Start -->
-    <section id="footer">
-      <footer class="container py-5">
-        <div class="row">
-          <div class="col-12 col-md">
-            <img class="mb-2" src="Assets/Logo Navbar.png" width="180" height="auto" alt="" />
-            <small class="d-block mb-3 text-muted">&copy; 2019–2021</small>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Contact Info</h5>
-            <ul class="list-unstyled text-small">
-              <li class="list-item" href="#">Call Us Free - 24/7</li>
-              <li style="color: #3682f4; font-size: 24px; font-family: 'Mulish', sans-serif; font-weight: 700" class="list-item mt-1" href="#">3200 421 000</li>
-              <li class="list-item" href="#">221 Makassar Road, Street 46, Makassar</li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Information</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary" href="#">About Us</a></li>
-              <li><a class="link-secondary" href="#">My Account</a></li>
-              <li><a class="link-secondary" href="#">Privacy Policies</a></li>
-              <li><a class="link-secondary" href="#">Terms & Conditions</a></li>
-              <li><a class="link-secondary" href="#">Customer Service</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Quick Action</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary" href="#">Special Offers</a></li>
-              <li><a class="link-secondary" href="#">Payment Method</a></li>
-              <li><a class="link-secondary" href="#">Terms of Use</a></li>
-              <li><a class="link-secondary" href="#">Track Your Order</a></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-    </section>
-    <!-- Footer End -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  </body>
-</html>

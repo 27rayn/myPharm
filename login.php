@@ -65,7 +65,7 @@
                   </div>
                 </div>
               </div>
-              <p>Don't have an account? <a href="register.html">Create an Account</a></p>
+              <p>Don't have an account? <a href="#">Create an Account</a></p>
               <p>Forgot your password? <a href="#">Click Here</a></p>
             </form>
           </div>
