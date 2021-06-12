@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <title>MyPharm-Login</title>
+    <title>MyPharm-Sign Up</title>
     <link rel="icon" type="image/png" href="Assets/Frame 32.png" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -49,7 +49,8 @@
               <div class="form-row">
                 <div class="mb-3">
                   <label for="password" class="form-label">Password</label>
-                  <input type="password" placeholder="minimun 8 characters" class="form-control rounded-3" name="Password" />
+                  <input type="password" placeholder="minimun 8 characters" class="form-control rounded-3" name="Password" aria-describedby="passwordHelpBlock" />
+                  <small id="passwordHelpBlock" class="form-text text-muted"> Your password must be 8-20 characters long, contain letters, numbers, and special characters. Must not contain spaces, or emoji. </small>
                 </div>
               </div>
               <div class="form-row">
@@ -62,7 +63,7 @@
               <div class="form-row">
                 <div class="form">
                   <div class="d-grid my-4">
-                    <button type="submit" href="index.html" class="btn btn-primary rounded-3">Sign Up</button>
+                    <a role="button" href="index.html" class="btn btn-primary rounded-3">Sign Up</a>
                   </div>
                 </div>
                 <div class="form">

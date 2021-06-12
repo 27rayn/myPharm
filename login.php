@@ -51,7 +51,7 @@
                 </div>
                 <div class="form">
                   <div class="d-grid my-4">
-                    <button type="submit" class="btn btn-primary rounded-3">Login</button>
+                    <a role="button" href="index.html" class="btn btn-primary rounded-3">Login</a>
                   </div>
                 </div>
                 <div class="form">
@@ -60,12 +60,12 @@
                   </div>
                   <div class="form" style="margin: 24px">
                     <div class="d-grid">
-                      <button class="btn btn-outline-primary rounded-3"><span class="iconify" data-inline="false" data-icon="grommet-icons:google" style="margin-right: 8px; font-size: 24px"></span> Sign in with Google</button>
+                      <a class="btn btn-outline-primary rounded-3"><span class="iconify" data-inline="false" data-icon="grommet-icons:google" style="margin-right: 8px; font-size: 24px"></span> Sign in with Google</a>
                     </div>
                   </div>
                 </div>
               </div>
-              <p>Don't have an account? <a href="#">Create an Account</a></p>
+              <p>Don't have an account? <a href="register.html">Create an Account</a></p>
               <p>Forgot your password? <a href="#">Click Here</a></p>
             </form>
           </div>
@@ -73,5 +73,4 @@
       </div>
     </section>
   </body>
-  
 </html>

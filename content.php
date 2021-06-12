@@ -36,7 +36,7 @@
           <form>
             <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
           </form>
-          <a class="btn btn-primary mx-2" type="submit">Sign Up</a>
+          <a class="btn btn-primary mx-2" type="submit" href="register.html">Sign Up</a>
           <a type="button" class="btn btn-outline-primary" href="login.html">Login</a>
           <a class="btn btn-labeled btn-primary mx-2" type="submit">
             <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
@@ -60,7 +60,7 @@
           </p>
           <div class="justify-content-md-center">
             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Sign Up</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Browse Shop</button>
+            <button type="button" class="btn btn-outline-primary btn-lg px-4">Browse Shop</button>
           </div>
         </div>
         <div class="col-lg-6">
