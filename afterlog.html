@@ -55,11 +55,22 @@
             </li>
           </ul>
           <div class="d-flex flex-wrap align-items-center justify-content-start">
-            <form>
+            <form class="me-3">
               <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
             </form>
-            <a class="btn btn-primary mx-2" type="submit" href="register.html">Sign Up</a>
-            <a type="button" class="btn btn-outline-primary" href="login.html">Login</a>
+            <div class="flex-shrink-0 dropdown">
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="Assets/Open Eye1.jpg" alt="profile pic" width="32" height="32" class="rounded-circle" />
+              </a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Daftar Transaksi</a></li>
+                <li><a class="dropdown-item" href="#">Order History</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+              </ul>
+            </div>
             <a class="btn btn-labeled btn-primary mx-2" type="submit">
               <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
               Cart

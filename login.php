@@ -51,7 +51,7 @@
                 </div>
                 <div class="form">
                   <div class="d-grid my-4">
-                    <a role="button" href="index.html" class="btn btn-primary rounded-3">Login</a>
+                    <a role="button" href="afterlog.html" class="btn btn-primary rounded-3">Login</a>
                   </div>
                 </div>
                 <div class="form">
