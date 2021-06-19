@@ -73,10 +73,6 @@
                 <li><a class="dropdown-item" href="index.html">Sign out</a></li>
               </ul>
             </div>
-            <a class="btn btn-labeled btn-primary mx-2" type="submit">
-              <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
-              Cart
-            </a>
           </div>
         </div>
       </div>
@@ -115,7 +111,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                        <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
+                        <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -140,8 +137,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                          <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
-                        </a>
+                        <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -170,8 +167,8 @@
                     </div>
                     <div class="col-2 text-end">
                       <div class="cart-item-options">
-                          <span class="iconify" data-icon="bi:x-circle" data-inline="false" style="font-size: 32px; color: red"></span>
-                        </a>
+                        <button type="button" class="btn-close" data-bs-toggle="tooltip" data-bs-placement="top" title="Remove item">
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -209,9 +206,28 @@
             </ul>
           </aside>
         </div>
+        <div class="col-12 col-md-7">
+          <!-- kupon -->
+          <form class="mb-7 mb-md-0">
+            <label class="fw-regular mb-3" style="font-size: 18px; font-family: 'Poppins', sans-serif;
+            font-weight: 500;" for="carCouponCode">
+              Promo code :
+            </label>
+            <div class="row form-row">
+            <div class="col">
+              <input class="form-control form-control-sm rounded-0" id="cartCouponCode" type="text"
+              placeholder="Enter promo code">
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-sm btn-primary" type="submit">Apply</button>
+            </div>
+          </div>
+          </form>
+        </div>
         </div>
       </div>
     </section>
+    
 
     <!-- Footer Start -->
     <section id="footer">
