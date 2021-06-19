@@ -51,7 +51,7 @@
                 </div>
                 <div class="form">
                   <div class="d-grid my-4">
-                    <a role="button" href="afterlog.html" class="btn btn-primary rounded-3">Login</a>
+                    <button type="submit" class="btn btn-primary rounded-3">Login</button>
                   </div>
                 </div>
                 <div class="form">

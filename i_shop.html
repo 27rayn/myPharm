@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- CSS Saya -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="sidebars.css" rel="stylesheet" />
+
+    <title>MyPharm</title>
+    <link rel="icon" type="image/png" href="img/Frame 32.png" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="toggles2" viewBox="0 0 16 16">
+        <path d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2 0-.729-.195-1.412-.535-2z" />
+        <path d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm.535-10a3.975 3.975 0 0 1-.409-1H4a1 1 0 0 1 0-2h2.126c.091-.355.23-.69.41-1H4a2 2 0 1 0 0 4h2.535z" />
+        <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
+      </symbol>
+      <symbol id="chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+      </symbol>
+    </svg>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="img/Logo Navbar.png" alt="" width="115" height="50" /> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                <li><a class="dropdown-item" href="#">Personal Care</a></li>
+                <li><a class="dropdown-item" href="#">Family Care</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Fitness</a></li>
+                <li><a class="dropdown-item" href="#">Health Devices</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-flex flex-wrap align-items-center justify-content-start">
+            <form>
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
+            </form>
+            <a class="btn btn-primary mx-2" href="register.html">Sign Up</a>
+            <a class="btn btn-outline-primary" href="login.html">Login</a>
+            <a class="btn btn-labeled btn-primary mx-2" type="submit">
+              <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
+              Cart
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    
+    <div class="py-3 bg-color bg-pattern">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center text-white">
+              <span class="heading-xxs letter-spacing-xl" style="font-size: 18px; font-family: 'Poppins', sans-serif; font-weight: 600; letter-spacing: 0.5px">Enjoy Our Final Year Discount Up to 30% 👀🤑🎉</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sidebar start -->
+    <section class="py-5">
+      <div class="container">
+        <class class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+            <div class="flex-shrink-0 p-3" style="width: 280px">
+
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Category</h3>
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">All products</a></li>
+                    <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Pharmacy</a></li>
+                    <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Personal Care</a></li>
+                    <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Family Care</a></li>
+                    <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Accesories</a></li>
+                    <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Fitness</a></li>
+                    <li><a href="#" class="link-dark rounded" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400">Health Devices</a></li>
+                  </ul>
+                </li>
+                <li class="border-bottom my-3"></li>
+                <li class="mb-1">
+                  <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Location</h3>
+                  <div class="form-check px-5 pb-1">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Jakarta </label>
+                  </div>
+                  <div class="form-check px-5 pb-1">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Makassar </label>
+                  </div>
+                  <div class="form-check px-5 pb-1">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Mataram </label>
+                  </div>
+                  <div class="form-check px-5 pb-1">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Medan </label>
+                  </div>
+                  <div class="form-check px-5 pb-1">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Surabaya </label>
+                  </div>
+                  <div class="form-check px-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault" style="font-size: 15px; font-family: 'Poppins', sans-serif; font-weight: 400"> Bandung </label>
+                  </div>
+                </li>
+                <li class="border-bottom my-3"></li>
+                <li class="mb-1">
+                  <h3 class="align-items-center rounded pb-2" style="font-family: 'Mulish', sans-serif">Price</h3>
+                  <p class="align-items-center rounded text-muted" style="font-family: 'Mulish', sans-serif; font-weight: 600">Set your price</p>
+                  <div class="d-flex align-items-center">
+                    <!-- input -->
+                    <input type="number" class="form-control form-control-xs" placeholder="Min Price" min="10" />
+                    <!-- divider -->
+                    <div class="text-gray-350 mx-2">-</div>
+                    <input type="number" class="form-control form-control-xs" placeholder="Max Price" max="350" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-8 col-lg-9">
+            <div class=" col-12 text-md-end pb-4">
+              <h3 class="text-md-start border-bottom py-2" style="font-size: 24px; font-family: 'Poppins', sans-serif; font-weight: 500">
+                All Products</h3>
+              <div class="dropdown">
+                <button class="btn btn-outline-primary dropdown-toggle mt-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sort By
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">New Arrival</a></li>
+                  <li><a class="dropdown-item" href="#">Highest Price - Lower Price</a></li>
+                  <li><a class="dropdown-item" href="#">Lower Price - Highest Price</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- PRoducts -->
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-green card-badge card-badge-left text-uppercase" style="margin-top: 30px;">30% Off</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      <s class="text-muted" style="font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600">3.456.212</s> Rp 2.250.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <div class="badge badge-red card-badge card-badge-right text-uppercase">Sale</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">
+                      Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <div class="container"></div>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" class="card-img-top" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4" style="width: auto">
+                  <div class="badge badge-blue card-badge card-badge-left text-uppercase">New</div>
+                  <!-- image -->
+                  <img src="img/Mask Group.png" alt="" />
+                  <div class="card-body border-top">
+                    <h5 class="card-title">Omron Arm Blood Pressure</h5>
+                    <p class="card-text mb-2" style="color: #3682f4; font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 700">Rp 3.450.000</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br />
+                    <button class="shop btn btn-primary mt-3" type="submit"><span class="iconify me-1" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9; font-size: 24px"></span> Add to cart</button>
+                    <button type="button" class="btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px"></span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pagination -->
+            <nav class="pt-5" aria-label="pagination">
+              <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+   
+
+    <!-- Footer Start -->
+    <section id="footer">
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md pt-5">
+            <img class="mb-2" src="img/Logo Navbar.png" width="180" height="auto" alt="" />
+            <small class="d-block mb-3 text-muted">&copy; 2019–2021</small>
+          </div>
+          <div class="col-6 col-md pt-5">
+            <h5>Contact Info</h5>
+            <ul class="list-unstyled text-small">
+              <li class="list-item" href="#">Call Us Free - 24/7</li>
+              <li style="color: #3682f4; font-size: 24px; font-family: 'Mulish', sans-serif; font-weight: 700" class="list-item mt-1" href="#">3200 421 000</li>
+              <li class="list-item" href="#">221 Makassar Road, Street 46, Makassar</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md pt-5">
+            <h5>Information</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">About Us</a></li>
+              <li><a class="link-secondary" href="#">My Account</a></li>
+              <li><a class="link-secondary" href="#">Privacy Policies</a></li>
+              <li><a class="link-secondary" href="#">Terms & Conditions</a></li>
+              <li><a class="link-secondary" href="#">Customer Service</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md pt-5">
+            <h5>Quick Action</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Special Offers</a></li>
+              <li><a class="link-secondary" href="#">Payment Method</a></li>
+              <li><a class="link-secondary" href="#">Terms of Use</a></li>
+              <li><a class="link-secondary" href="#">Track Your Order</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- Footer End -->
+
+    <script src="sidebars.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>

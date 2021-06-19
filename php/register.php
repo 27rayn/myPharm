@@ -63,7 +63,7 @@
               <div class="form-row">
                 <div class="form">
                   <div class="d-grid my-4">
-                    <a role="button" href="afterlog.html" class="btn btn-primary rounded-3">Sign Up</a>
+                    <button type="submit" class="btn btn-primary rounded-3">Sign Up</button>
                   </div>
                 </div>
                 <div class="form">

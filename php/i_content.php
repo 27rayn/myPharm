@@ -36,12 +36,12 @@
           <form>
             <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
           </form>
-          <a class="btn btn-primary mx-2" type="submit" href="register.html">Sign Up</a>
-          <a type="button" class="btn btn-outline-primary" href="login.html">Login</a>
-          <a class="btn btn-labeled btn-primary mx-2" type="submit">
-            <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
-            Cart
-          </a>
+          <a class="btn btn-primary mx-2" href="register.html">Sign Up</a>
+            <a class="btn btn-outline-primary" href="login.html">Login</a>
+            <a class="btn btn-labeled btn-primary mx-2" type="submit">
+              <span class="iconify" data-inline="false" data-icon="bi:cart-fill" style="color: #f9f9f9"></span>
+              Cart
+            </a>
         </div>
       </div>
     </nav>
