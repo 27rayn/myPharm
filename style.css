@@ -6,7 +6,7 @@
 }
 
 .h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .card-deals {
@@ -35,6 +35,9 @@
 .checked {
   color: orange;
 }
+.unchecked {
+  color: rgb(192, 192, 192);
+}
 
 .shop .btn {
   justify-content: center;
@@ -50,52 +53,102 @@
   background-color: #f2f2f2;
 }
 
-.card-badge-left{
+.card-badge-left {
   left: 0;
 }
 
-.card-badge-right{
+.card-badge-right {
   right: 0;
 }
 
-.card-badge{
+.card-badge {
   position: absolute;
   top: 1.25rem;
   z-index: 1;
 }
 
-.card>*{
-flex-shrink: 0;
+.card > * {
+  flex-shrink: 0;
 }
 
-.badge-blue{
+.badge-blue {
   background-color: #0568fd;
 }
 
-.badge-red{
-  background-color: red;
+.badge-red {
+  background-color: #fe696a;
 }
 
-.badge-green{
+.badge-green {
   background-color: #52b788;
 }
 
-.text-uppercase{
-  text-transform: uppercase!important;
+.text-uppercase {
+  text-transform: uppercase !important;
 }
 
-.badge{
+.badge {
   display: inline-block;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   font-size: 12px;
-  font-weight: 700;
-  font-family: 'Mulish';
+  font-weight: 500;
+  font-family: "Poppins";
   text-align: center;
 }
- .bg-color{
-   background-color: #0568fd;
- }
 
- .bg-white{
-   background-color: #f2f2f2;
- }
+.bg-color {
+  background-color: #0568fd;
+}
+
+.bg-white {
+  background-color: #f2f2f2;
+}
+
+.bg-dark-2 {
+  background-color: #0c254b;
+}
+
+.btn-toggle-nav a {
+  display: inline-flex;
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
+  margin-left: 1.25rem;
+  text-decoration: none;
+}
+.btn-toggle-nav a:hover {
+  background-color: #0568fd;
+  color: antiquewhite;
+}
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+/* store text decoration dan text2 yang make a */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a87507;
+}
+.store {
+  color: #f77f00;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #4992ff;
+  border-color: #4992ff;
+  box-shadow: none !important;
+}
+
+.btn-check:focus + .btn-outline-primary,
+.btn-outline-primary:focus {
+  box-shadow: none !important;
+}
