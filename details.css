@@ -1,3 +1,8 @@
+.page-wrapper{
+  flex: 1 0 auto;
+}
+
+
 /* Overlapping header */
 
 .page-title-overlap {
@@ -30,6 +35,35 @@ div {
   align-items: center;
 }
 
+.btn-orange{
+  border-color: #f7b500;
+  border-radius: 20px;
+}
+.btn-orange-no{
+  border-color: #f7b500;
+  border-radius: 5px;
+}
+.btn-orange.active{
+  color: #ffff;
+  background-color: #fd8d0d;
+  border-color: #f7b500 !important;
+  box-shadow: 0 0.5rem 1.125rem -0.275rem rgb(254, 184, 105);
+}
+.btn-orange:hover, .btn-orange-no:hover{
+  color: #ffff;
+  background-color: #fd8d0d;
+  border-color: #f7b500 !important;
+  box-shadow: 0 0.5rem 1.125rem -0.275rem rgb(254, 184, 105);
+}
+
+.btn-orange:focus, .btn-orange-no:focus{
+  background-color:#fd8d0d ;
+  color: #fff;
+  border-color: #f7b500 !important;
+  box-shadow: none !important;
+}
+
+
 .product-gallery {
   display: flex;
 }
@@ -59,19 +93,6 @@ a:hover {
   color: #f77f00;
 }
 
-.star-rating .fa-star {
-  display: inline-block;
-  margin-right: 0.1875rem;
-  color: #aeb4be;
-  font-size: 14px;
-  vertical-align: middle;
-  margin: 1px;
-}
-
-.star-rating .checked {
-  color: #fea569;
-}
-
 .unchecked {
   color: rgb(192, 192, 192);
 }
@@ -79,8 +100,17 @@ a:hover {
   color: #4b566b !important;
 }
 .fs-sm {
-  font-size: 0.875rem !important;
+  font-size: 0.9rem !important;
 }
+
+.fs-ms{
+  font-size: .8125rem !important;
+}
+
+.fs-md{
+  font-size: 15px;
+}
+
 .ms-1 {
   margin-left: 0.25rem !important;
 }
@@ -204,6 +234,13 @@ h1,
   box-shadow: none !important;
 }
 
+
+
+
+.bi-star{
+  color: #aeb4be;
+}
+
 .bi-star-half {
   color: #fea569;
 }
@@ -214,7 +251,6 @@ h1,
 .star-rating {
   display: inline-block;
   white-space: nowrap;
-  line-height: 1;
   vertical-align: middle;
 }
 .me-2 {
@@ -298,10 +334,6 @@ h1,
 .text-muted {
   color: #7d879c !important;
 }
-
-.ci-star-filled:before {
-  content: "";
-}
 *,
 *::before,
 *::after {
@@ -324,4 +356,34 @@ h1,
   
   border: solid 1px #a0a0a0;
   border-radius: 6px;
+}
+
+.btn-like, .btn-dislike {
+  display: inline-block;
+  padding: 0;
+  padding-left: .625rem;
+  transition: color 0.25s ease-in-out,background-color 0.25s ease-in-out,box-shadow 0.25s ease-in-out,border-color 0.25s ease-in-out;
+  border: 0;
+  background: 0;
+  color: #7d879c;
+  font-size: .875rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.bi-hand-thumbs-up {
+  margin-top: -.325rem;
+  color: #42d697;
+  font-size: 16px;
+}
+
+.bi-hand-thumbs-down{
+  margin-top: -.325rem;
+  color: #ec3413;
+  font-size: 16px;
+}
+
+#footer {
+  background-color: #f2f2f2;
 }
